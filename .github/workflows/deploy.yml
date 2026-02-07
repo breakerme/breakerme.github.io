@@ -22,7 +22,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npm run docs:build # 执行构建，生成静态文件
+          npm run build:win # 执行构建，生成静态文件
           touch docs/.vuepress/dist/.nojekyll
 
       # 4. 部署到GitHub Pages
