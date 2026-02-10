@@ -50,11 +50,27 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '页面',
-        link: '/ui/',
+        text: '读书',
+        link: '/books/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { 
+		  
+			text: '哲学', 
+			items: [
+              { text: '道德经', link: '/pages/t6k9i8/' },
+             
+            ],
+			
+		  },
+          { 
+			
+			text: '营养学', 
+			items: [
+              { text: '吃出自愈力', link: '/pages/c8f128/' },
+             
+            ],
+
+		  },
         ],
       },
       {
