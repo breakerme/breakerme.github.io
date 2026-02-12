@@ -74,6 +74,14 @@ export default {
     },
   },
   mounted() {
+    let rawTime = this.$lastUpdatePosts[0].lastUpdated;
+    let date = new Date(rawTime);
+    console.log('原始时间字符串:', rawTime);
+    console.log('转为Date对象:', date);
+    console.log('本地时区小时:', date.getHours());
+    console.log('UTC小时:', date.getUTCHours());
+
+
     // Young Kbt
     if (Object.keys(this.$themeConfig.blogInfo).length > 0) {
       const {

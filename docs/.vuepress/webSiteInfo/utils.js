@@ -59,15 +59,22 @@ export function timeDiff(startDate, endDate) {
     endDate = startDate;
     startDate = new Date();
   }
+
+  // ✅ 添加调试日志
+  console.log('startDate原始:', startDate);
+  console.log('endDate原始:', endDate);
+
   if (!(startDate instanceof Date)) {
     startDate = new Date(startDate);
   }
   if (!(endDate instanceof Date)) {
     endDate = new Date(endDate);
   }
+
+  console.log('时间戳差:', startDate - endDate);
   
   // 计算时间戳的差（绝对值）
-  const diffValue = parseInt(Math.abs(endDate - startDate) / 1000);
+  const diffValue = parseInt(Math.abs(startDate - endDate) / 1000);
   
   if (diffValue < 60) {
     return diffValue === 0 ? '刚刚' : diffValue + ' 秒';
