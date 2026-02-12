@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # 推荐使用Node.js 18或更高版本
+          node-version: '16' # 推荐使用Node.js 18或更高版本
 
       # 3. 安装依赖并构建网站
       - name: Install and Build
