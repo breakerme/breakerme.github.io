@@ -1,9 +1,10 @@
-// 日期格式化(只获取年月日)
+// 日期格式化(只获取年月日) - 使用本地时间
 export function dateFormat(date) {
   if (!(date instanceof Date)) {
     date = new Date(date);
   }
-  return `${date.getUTCFullYear()}-${zero(date.getUTCMonth() + 1)}-${zero(date.getUTCDate())}`;
+  // 改用本地时间，不用 UTC
+  return `${date.getFullYear()}-${zero(date.getMonth() + 1)}-${zero(date.getDate())}`;
 }
 
 // 小于10补0
@@ -25,7 +26,7 @@ export function lastUpdatePosts(posts) {
 export function getTimeNum(post) {
   let dateStr = post.lastUpdated || post.frontmatter.date;
   let date = new Date(dateStr);
-  if (date == "Invalid Date" && dateStr) { // 修复new Date()在Safari下出现Invalid Date的问题
+  if (date == "Invalid Date" && dateStr) {
     date = new Date(dateStr.replace(/-/g, '/'));
   }
   return date.getTime();
@@ -64,35 +65,36 @@ export function timeDiff(startDate, endDate) {
   if (!(endDate instanceof Date)) {
     endDate = new Date(endDate);
   }
-  // 计算时间戳的差
-  const diffValue = parseInt((Math.abs(endDate - startDate) / 1000));
-  if (diffValue == 0) {
-    return '刚刚';
-  } else if (diffValue < 60) {
-    return diffValue + ' 秒';
-  } else if (parseInt(diffValue / 60) < 60) {
+  
+  // 计算时间戳的差（绝对值）
+  const diffValue = parseInt(Math.abs(endDate - startDate) / 1000);
+  
+  if (diffValue < 60) {
+    return diffValue === 0 ? '刚刚' : diffValue + ' 秒';
+  } else if (diffValue < 3600) {
     return parseInt(diffValue / 60) + ' 分';
-  } else if (parseInt(diffValue / (60 * 60)) < 24) {
-    return parseInt(diffValue / (60 * 60)) + ' 时';
-  } else if (parseInt(diffValue / (60 * 60 * 24)) < getDays(startDate.getMonth, startDate.getFullYear)) {
-    return parseInt(diffValue / (60 * 60 * 24)) + ' 天';
-  } else if (parseInt(diffValue / (60 * 60 * 24 * getDays(startDate.getMonth, startDate.getFullYear))) < 12) {
-    return parseInt(diffValue / (60 * 60 * 24 * getDays(startDate.getMonth, startDate.getFullYear))) + ' 月';
+  } else if (diffValue < 86400) {
+    return parseInt(diffValue / 3600) + ' 时';
+  } else if (diffValue < 2592000) { // 30天
+    return parseInt(diffValue / 86400) + ' 天';
+  } else if (diffValue < 31536000) { // 365天
+    let months = parseInt(diffValue / 2592000);
+    return months + ' 月';
   } else {
-    return parseInt(diffValue / (60 * 60 * 24 * getDays(startDate.getMonth, startDate.getFullYear) * 12)) + ' 年';
+    let years = parseInt(diffValue / 31536000);
+    return years + ' 年';
   }
 }
 
 /**
- * 判断当前月的天数（28、29、30、31）
+ * 👇 这个函数可以删掉了，上面已经不用了
  */
-export function getDays(mouth, year) {
-  let days = 30;
-  if (mouth === 2) {
-    days = year % 4 === 0 ? 29 : 28;
-  } else if (mouth === 1 || mouth === 3 || mouth === 5 || mouth === 7 || mouth === 8 || mouth === 10 || mouth === 12) {
-    // 月份为：1,3,5,7,8,10,12 时，为大月.则天数为 31；
-    days = 31;
-  }
-  return days;
-}
+// export function getDays(mouth, year) {
+//   let days = 30;
+//   if (mouth === 2) {
+//     days = year % 4 === 0 ? 29 : 28;
+//   } else if (mouth === 1 || mouth === 3 || mouth === 5 || mouth === 7 || mouth === 8 || mouth === 10 || mouth === 12) {
+//     days = 31;
+//   }
+//   return days;
+// }
