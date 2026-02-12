@@ -260,7 +260,29 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 插件配置
   plugins: <UserPlugins>[
-   
+     
+    // 时区加8小时
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp: number) => {
+          const date = new Date(timestamp);
+          // 手动加8小时
+          date.setHours(date.getHours() + 8);
+          const year = date.getFullYear();
+          const month = String(date.getMonth() + 1).padStart(2, '0');
+          const day = String(date.getDate()).padStart(2, '0');
+          const hour = String(date.getHours()).padStart(2, '0');
+          const minute = String(date.getMinutes()).padStart(2, '0');
+          const second = String(date.getSeconds()).padStart(2, '0');
+          return `${year}/${month}/${day}, ${hour}:${minute}:${second}`;
+        }
+      }
+    ],
+
+
+
+
     [
     	{
         	name: 'custom-plugins',
