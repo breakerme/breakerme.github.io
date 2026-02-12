@@ -2,15 +2,28 @@ import fs from 'fs'; // 文件模块
 import path from 'path'; // 路径模块
 import { default as matter } from 'gray-matter'; // FrontMatter解析器 https://github.com/jonschlinkert/gray-matter
 import chalk from 'chalk' // 命令行打印美化
+import { fileURLToPath } from 'url';  // ✅ 放在最后
 
-
+interface ArticleInfo {
+  name: string;
+  filePath: string;
+  wordsCount: number | string;
+  readingTime: string;
+  // frontmatter 可能的字段
+  title?: string;
+  date?: string | Date;
+  categories?: string[];
+  tags?: string[];
+  permalink?: string;
+  [key: string]: any; // 其他任意 frontmatter 字段
+}
 
 
 
 
 const log = console.log
 // ✅ 改成（ESM 的 __dirname 替代写法）
-import { fileURLToPath } from 'url';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const docsRoot = path.join(__dirname, '..', '..', '..', 'docs');
@@ -79,7 +92,7 @@ function readTotalFileWords(excludeFiles = ['']) {
  * 可以排除某个目录下的 md 文档字数
  */
 function readEachFileWords(excludeFiles: Array<string> = [''], cn: number, en: number) {
-  const filesListWords = [];
+  const filesListWords: ArticleInfo[] = [];
   const filesList = readFileList(excludeFiles);
   filesList.forEach((item: any) => {
     const content = getContent(item.filePath);
