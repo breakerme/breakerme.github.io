@@ -1,9 +1,19 @@
 import fs from 'fs'; // 文件模块
 import path from 'path'; // 路径模块
-import matter from 'gray-matter'; // FrontMatter解析器 https://github.com/jonschlinkert/gray-matter
+import { default as matter } from 'gray-matter'; // FrontMatter解析器 https://github.com/jonschlinkert/gray-matter
 import chalk from 'chalk' // 命令行打印美化
+
+
+
+
+
+
 const log = console.log
-const docsRoot = path.join(__dirname, '..', '..', '..', 'docs'); // docs文件路径
+// ✅ 改成（ESM 的 __dirname 替代写法）
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const docsRoot = path.join(__dirname, '..', '..', '..', 'docs');
 
 /**
  * 获取本站的文章数据

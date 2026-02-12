@@ -27,6 +27,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 主题配置
   themeConfig: {
+
     // 站点配置（首页 & 文章页）
     blogInfo: {
       blogCreate: '2026-02-07', // 博客创建时间
@@ -261,24 +262,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // 插件配置
   plugins: <UserPlugins>[
      
-    // 时区加8小时
-    [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp: number) => {
-          const date = new Date(timestamp);
-          // 手动加8小时
-          date.setHours(date.getHours() + 8);
-          const year = date.getFullYear();
-          const month = String(date.getMonth() + 1).padStart(2, '0');
-          const day = String(date.getDate()).padStart(2, '0');
-          const hour = String(date.getHours()).padStart(2, '0');
-          const minute = String(date.getMinutes()).padStart(2, '0');
-          const second = String(date.getSeconds()).padStart(2, '0');
-          return `${year}/${month}/${day}, ${hour}:${minute}:${second}`;
-        }
-      }
-    ],
+    
 
 
 
@@ -396,7 +380,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       '@vuepress/last-updated', // "上次更新"时间格式
       {
         transformer: (timestamp, lang) => {
-          return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+          // ✅ 加8小时，转为北京时间
+          return dayjs(timestamp).add(8, 'hour').format('YYYY/MM/DD, HH:mm:ss')
         },
       },
     ],

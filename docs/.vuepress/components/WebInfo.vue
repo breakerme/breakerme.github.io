@@ -74,14 +74,7 @@ export default {
     },
   },
   mounted() {
-    let rawTime = this.$lastUpdatePosts[0].lastUpdated;
-    let date = new Date(rawTime);
-    console.log('原始时间字符串:', rawTime);
-    console.log('转为Date对象:', date);
-    console.log('本地时区小时:', date.getHours());
-    console.log('UTC小时:', date.getUTCHours());
-
-
+  
     // Young Kbt
     if (Object.keys(this.$themeConfig.blogInfo).length > 0) {
       const {
@@ -121,6 +114,11 @@ export default {
       } else {
         this.totalWords = totalWords;
       }
+
+      console.log('config里的时间:', this.$lastUpdatePosts[0].lastUpdated);
+      console.log('转换为Date:', new Date(this.$lastUpdatePosts[0].lastUpdated));
+      console.log('当前北京时间:', new Date());
+
       // 最后一次活动时间
       this.lastActiveDate = timeDiff(this.$lastUpdatePosts[0].lastUpdated);
       this.mountedWebInfo(moutedEvent);
