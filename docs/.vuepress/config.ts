@@ -6,8 +6,8 @@ import { resolve } from 'path'
 import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
-import baiduCode from './config/baiduCode' // 百度统计hm码
-import htmlModules from './config/htmlModules' // 自定义插入的html块
+import baiduCode from './config/baiduCode.js' // 百度统计hm码
+import htmlModules from './config/htmlModules.js' // 自定义插入的html块
 
 const DOMAIN_NAME = 'breakerme.github.io' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
@@ -261,11 +261,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 插件配置
   plugins: <UserPlugins>[
-     
-    module.exports =[
-        [
-            'reading-progress'
-        ]
+        
+     // ✅ 正确写法：直接写插件数组
+    [
+        'vuepress-plugin-reading-progress'  // 注意：插件名可能叫这个
     ],
 
 
