@@ -267,11 +267,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // 插件配置
   plugins: <UserPlugins>[
     
-    // ✅ 只保留这一行，删除整个 <template><script><style> 部分
-    {
-        name: 'custom-plugins',
-        globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-    },
+   
     
    
 
@@ -289,7 +285,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     [
     	{
         	name: 'custom-plugins',
-        	globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        	globalUIComponents: ["PageInfo", "GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     	}
     ],
 
