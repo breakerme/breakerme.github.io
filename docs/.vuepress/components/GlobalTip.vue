@@ -1,9 +1,17 @@
-<template></template>
+<template>
+  <div class="test-tip">
+    🎉 全局组件加载成功！
+  </div>
+</template>
 <script>
 // 首页是否开启时间消息提示，默认 false。因为首页大图模块已经内置时间消息提示，所以这里不需要开启，如果您不使用首页大图模块，可以将此值设置为 true。
 const indexTip = false;
 export default {
+  name: 'GlobalTip',
   mounted() {
+    console.log('✅ GlobalTip 组件已挂载')
+    alert('组件加载成功！') // 测试用，能弹窗就说明成功了
+
     // 首页不弹出消息提示，因为首页大图模块已经内置首页的消息提示
     if (indexTip || this.$route.path != "/") {
       this.bgTimeColor();
@@ -143,9 +151,24 @@ function nextAllTipElement(elem) {
   }
   return r;
 }
+
+
 </script>
 
 <style>
+.test-tip {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #42b983;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 999999;
+  font-size: 20px;
+}
+
 /* 提示框元素 */
 .global-tip {
   position: fixed;
