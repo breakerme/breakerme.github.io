@@ -78,22 +78,22 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { 
 		  
-			text: '哲学', 
-			items: [
-              { text: '道德经', link: '/pages/t6k9i8/' },
-             
-            ],
-			
-		  },
+            text: '哲学', 
+            items: [
+                    { text: '道德经', link: '/pages/t6k9i8/' },
+                  
+                  ],
+          
+          },
           { 
-			
-			text: '营养学', 
-			items: [
-              { text: '吃出自愈力', link: '/pages/c8f128/' },
-             
-            ],
+          
+            text: '营养学', 
+            items: [
+                    { text: '吃出自愈力', link: '/pages/c8f128/' },
+                  
+                  ],
 
-		  },
+          },
         ],
       },
       {

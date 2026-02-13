@@ -12,15 +12,15 @@ bannerBg: /img/bg.jpeg # auto => 网格纹背景(有bodyBgImg时无背景)，默
 features: # 可选的
   - title: 读书
     details: 心理学、哲学、生物学等
-    link: /web/ # 可选
+    link: /books/ # 可选
    # imgUrl: /img/web.png # 可选
   - title: 存在学
     details: 原创总结性思考
-    link: /ui/
+    link: /czx/
    # imgUrl: /img/ui.png
   - title: 生活
     details: 一些生活记录和感悟
-    link: /ui/
+    link: /life/
    # imgUrl: /img/ui.png
   - title: 技术
     details: 学习技术，兴趣所致皆探索
