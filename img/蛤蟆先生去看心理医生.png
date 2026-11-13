@@ -1,0 +1,245 @@
+
+<!-- saved from url=(0064)https://baike.quark.cn/baike?id=711efc13f1c34fbb95dbe295faed4a62 -->
+<html style="font-size: 128px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./蛤蟆先生去看心理医生_files/um.js.下载" id="AWSC_umidPCModule"></script><script src="./蛤蟆先生去看心理医生_files/et_f.js.下载" id="AWSC_etModule"></script><script>try{performance.mark('stage-head-start')}catch(e){}</script><script>try{performance.mark('stage-meta-start')}catch(e){}</script><meta name="wpk-trace_reqid" content="1787627835082-e63a6c40"><script>try{performance.mark('stage-dangerously-scripts-start')}catch(e){}</script><script>(function i(){var e;function t(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(e){var t=16*Math.random()|0;return("x"===e?t:3&t|8).toString(16)})}function n(){if(void 0!==e)return e;try{var n=new URL(window.location.href).searchParams.get("x-wpk-traceid");if(n)return e=n,n}catch(o){}try{var r=document.querySelector('meta[name="wpk-trace_reqid"]');if(r&&r.getAttribute("content"))return e=r.getAttribute("content")}catch(o){}return e=t()}window.getTraceHeader=function(){return{"x-wpk-traceid":n(),"x-wpk-reqid":t()}};var r=n();window.__itracecfg__={wv_traceid:r};var o=document.createElement("meta");o.setAttribute("name","wpk-wv_traceid"),o.setAttribute("content",r),document.head.appendChild(o),window.ucapi&&window.ucapi.invoke&&window.ucapi.invoke("biz.ucparams",{params:"ut",isHttps:!0,urlencode:!0,success:function(e){window.ucapi.invoke("base.ulog",{level:"i",tag:"utdid2wpktraceid",log:JSON.stringify({routePath:window.location.pathname,url:window.location.href,utdid:e&&e.ut||"","x-wpk-traceid":r||""}),success:function(){},fail:function(){}})},fail:function(){}})})();</script><meta name="wpk-wv_traceid" content="1787627835082-e63a6c40"><meta name="ut-on"><meta name="multiple-page"><meta name="exposure-on"><meta name="wpk-bid" content="blm-baike-detail"><meta name="wpk-rel" content="0.0.12"><meta name="wpk-sessid" content="1787627835082"><meta name="nightmode" content="disable"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"><script>try{performance.mark('stage-meta-end')}catch(e){}</script><link rel="icon" href="https://image.quark.cn/s/uae/g/1v/quark-baike-be-mp/dist/favicon.ico"><title>蛤蟆先生去看心理医生 - 夸克百科</title><script src="./蛤蟆先生去看心理医生_files/dark-mode-1.0.4-beta.3-0.js.下载"></script><script>
+              if (typeof window !== 'undefined') {
+                document.addEventListener('DOMContentLoaded', function() {
+                  setTimeout(()=>{
+                    if (window.Theme && window.Theme.DarkMode) {
+                      try {
+                        const dm = new Theme.DarkMode({
+                          config: {
+                            cssVars: {
+                              '--dark-bg-color':'#0f0f0f',
+                              '--dark-text-color': '#fff',
+                              '--dark-border-color': '#333'
+                            },
+                            enableTransition: false,
+                          }
+                        });
+                        dm.setMode(window?.$UCThemeManager?.['Theme']?.theme === 'NightMode' ? 'dark' : 'light');
+                        dm.on('afterThemeChange', (event) => {
+                          dm.setMode(event.newMode);
+                        });
+                      } catch (e) {
+                        console.error('Init DarkMode failed:', e);
+                      }
+                    }
+                  },0)
+                });
+              }
+            </script><script>try{performance.mark('stage-links-parser-start')}catch(e){}</script><link rel="stylesheet" href="./蛤蟆先生去看心理医生_files/baike_styles.af6bc73e9361d3bdf932.css" data-prefetch="unet"><link rel="stylesheet" href="./蛤蟆先生去看心理医生_files/markdown-baike_styles.c781d6ccf1a18c8e04ec.css" data-prefetch="unet"><link rel="stylesheet" href="./蛤蟆先生去看心理医生_files/baike_styles.af6bc73e9361d3bdf932.css" data-prefetch="unet"><script>try{performance.mark('stage-links-parser-end')}catch(e){}</script><script src="./蛤蟆先生去看心理医生_files/awsc.js.下载"></script><script>
+if(window?.document){
+  let t1 = Date.now()
+  window.umidToken = "defaultToken1_um_not_loaded@@"+ location.href +"@@"+new Date().getTime();
+  AWSC.use("um", function (state, umModule) {
+      if(state === "loaded") {
+          window.umidToken = "defaultToken3_init_callback_not_called@@"+ location.href +"@@"+new Date().getTime();
+          console.log('===SIGN-baxia-loaded', window.umidToken);
+          umModule.init({
+        appName:
+            window.envType === 'prod'
+              ? 'wagbridgead-sm-nginx-quarkpc-security-calibration-time-web'
+              : 'aserver__pre__-sm-search-frontend-quarkpc-security-time-web',
+              serviceLocation: 'cn'
+          }, function (initState, result) {
+              if(initState === 'success') {
+                  let t2 = Date.now()
+                  console.log('umidToken',t2-t1);
+                  console.log('===SIGN-baxia-success', window.umidToken);
+                  document.dispatchEvent(
+                    new CustomEvent('BAXI_umidToken', {
+                      detail: {
+                        umidToken: result.tn,
+                      },
+                    }),
+                  );
+                  console.log('===SIGN-baxia-dispatch', result.tn);
+                  window.umidToken = result.tn;
+              }else{
+                  window.umidToken = "defaultToken4_init_failed with "+initState+"@@"+ location.href +"@@"+new Date().getTime();
+              }
+          }
+          );
+      }else{
+          window.umidToken = "defaultToken2_load_failed with "+state+"@@"+ location.href +"@@"+new Date().getTime();
+      }
+  });
+}</script><script>
+            try{!function(){
+              var e=document.documentElement,n=function(){var n=e.clientWidth>480?"480":e.clientWidth;if(n){var t=n/375*100;e.style.fontSize=t+"px"}};function t(){var e;clearTimeout(e),e=setTimeout(n,300)}window.addEventListener("resize",function(){t()},!1),window.addEventListener("pageshow",function(e){e.persisted&&t()},!1),n()}();}catch(e){console.error('resize:', e)}</script><script>var rel='';var relDom=document.querySelector('meta[name=wpk-rel]');if(relDom){rel=relDom.getAttribute('content')||''};window.__itrace_conf={bid:'baike-detail',rel:rel,beforeSend:function(json){var meta=document.querySelector('meta[name=wpk-sessid]');if(json&&meta&&typeof json=='object'){json.w_sessid=meta.getAttribute('content')||''}},plugins:['jserror',{id:'interface',withReqHeader:true,withRespHeader:true,enableTrace:true,enableCorsTrace:function(url){return false;}},{id: 'perf',enableLCP: true },'resource','blank']};</script><script defer="" src="./蛤蟆先生去看心理医生_files/saved_resource"></script><script defer="" src="./蛤蟆先生去看心理医生_files/0f7edcecc4170a519bea14c0ae27efe9.js.下载"></script><script>window.onload = function() {
+  document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover');
+};</script><script>try{performance.mark('stage-dangerously-scripts-end')}catch(e){}</script><script>try{performance.mark('stage-head-end')}catch(e){}</script><meta name="wpk-c1" content="SSR"><style>.Po4BvhR1CK2tJaywJ6AN path {
+  fill: var(--icon-path-fill);
+}
+.Oz4yDjua3Qe6thqkZYf_ path {
+  transition: 0.2s all;
+}
+.Oz4yDjua3Qe6thqkZYf_:hover path {
+  fill: var(--icon-hover-fill);
+}
+</style><style>/* ！！！切勿直接改动该文件，该文件由 generator.ts 自动生成！！！ */
+/* !!! DONT MODIFY THIS FILE DIRECTLY, THIS FILE IS GENERATED BY generator.ts AUTOMATICALLY !!! */
+.ibW4Oa5B7s2zJKKZ4pCg {
+  user-select: none;
+}
+.AtqKyJetjrG4smuk35Np {
+  max-width: 346px;
+  width: auto;
+  height: 36px;
+  background-color: var(--quark-style-white-color, #fff);
+  padding-left: 10px;
+  padding-right: 4px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid var(--quark-style-gray-20-color, rgba(6, 10, 38, 0.12));
+  box-shadow: 0 12px 32px -6px var(--quark-style-gray-30-fixed-color, rgba(6, 10, 38, 0.24));
+  border-radius: 10px;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .g6iGsZa_KHMeW2yICzQQ {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .e4UXx38MPgfHdym_Lzt0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 28px;
+  padding: 0 6px;
+  margin-right: 2px;
+  border-radius: 6px;
+  column-gap: 4px;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .e4UXx38MPgfHdym_Lzt0:hover:not(.ibW4Oa5B7s2zJKKZ4pCg .kNOcXLDT_cCrcoY8LTm8) {
+  background: var(--quark-style-gray-10-color, rgba(6, 10, 38, 0.06));
+}
+.ibW4Oa5B7s2zJKKZ4pCg .kNOcXLDT_cCrcoY8LTm8 {
+  cursor: default;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .kNOcXLDT_cCrcoY8LTm8 .Va3czASiR9Zztyl_lD4M {
+  color: var(--quark-style-gray-40-color, rgba(6, 10, 38, 0.4)) !important;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .e4UXx38MPgfHdym_Lzt0 .Va3czASiR9Zztyl_lD4M {
+  font-size: 12px;
+  color: var(--quark-style-gray-color, #060A26);
+  line-height: 16px;
+  white-space: nowrap;
+  position: relative;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .llw0qsmiI_08u93bFdNg {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  overflow: visible !important;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .LEo8kpqIERehkv8AhAfG {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  overflow: visible !important;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .LEo8kpqIERehkv8AhAfG:hover {
+  background: var(--quark-style-gray-10-color, rgba(6, 10, 38, 0.06));
+}
+.ibW4Oa5B7s2zJKKZ4pCg .zoNmooxAnbLEJSN8m1Jg {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+  max-height: 136px;
+  height: auto;
+  top: 36px;
+  right: -5px;
+  padding: 4px 0;
+  background-color: var(--quark-style-white-color, #fff);
+  border: 1px solid var(--quark-style-gray-20-color, rgba(6, 10, 38, 0.12));
+  box-shadow: 0 4px 16px -6px var(--quark-style-gray-20-fixed-color, rgba(6, 10, 38, 0.12));
+  border-radius: 8px;
+  overflow: visible !important;
+  row-gap: 4px;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .O1imPofna4elG_8NcQnR {
+  top: -77px;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .mdH0IY7jS3Swn5vdX6tz {
+  width: 102px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  column-gap: 8px;
+  border-radius: 6px;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .mdH0IY7jS3Swn5vdX6tz:hover:not(.ibW4Oa5B7s2zJKKZ4pCg .dEdHLVmn_L2GAzb_cmwt) {
+  background: var(--quark-style-gray-10-color, rgba(6, 10, 38, 0.06));
+}
+.ibW4Oa5B7s2zJKKZ4pCg .dEdHLVmn_L2GAzb_cmwt {
+  cursor: default;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .dEdHLVmn_L2GAzb_cmwt .zEraruudgjR2MToGu4Kw {
+  color: var(--quark-style-gray-40-color, rgba(6, 10, 38, 0.4)) !important;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .XfCMwvO0DsqFCeyzPYP2 {
+  width: 16px;
+  height: 16px;
+}
+.ibW4Oa5B7s2zJKKZ4pCg .zEraruudgjR2MToGu4Kw {
+  font-size: 12px;
+  color: var(--quark-style-gray-color, #060A26);
+}
+.ibW4Oa5B7s2zJKKZ4pCg .KZeoAuXbMIkWzOT4PcH5 {
+  width: 100%;
+  height: 1px;
+  background: var(--quark-style-gray-10-color, rgba(6, 10, 38, 0.06));
+}
+.ZL32C_XdLL8UQRZ3zObd {
+  display: flex;
+  align-items: center;
+}
+.u5llx7cIQZLdrjP5Vag1 {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-right: 12px;
+  background: var(--quark-style-gray-60-color, rgba(6, 10, 38, 0.6));
+}
+.ZL32C_XdLL8UQRZ3zObd .LEo8kpqIERehkv8AhAfG {
+  border-radius: 16px !important;
+  background: var(--quark-style-gray-60-color, rgba(6, 10, 38, 0.6)) !important;
+}
+.ZL32C_XdLL8UQRZ3zObd .zoNmooxAnbLEJSN8m1Jg {
+  right: 0 !important;
+}
+.ZL32C_XdLL8UQRZ3zObd {
+  overflow: visible !important;
+}
+</style></head><body style="overflow: hidden;"><script>try{performance.mark('stage-body-start')}catch(e){}</script><script>try{performance.mark('stage-skeleton-parser-start')}catch(e){}</script><div id="root"><div class="container-wrap-class container-3TXib pcBaike-33z8k"><div class="pc-head-1U2uy"><div class="qk-picture qk-picture-3-4 qk-picture-3-4-m qk-picture-cover qk-picture-radius-xs qk-picture-shadow" data-cmp="pi" data-loaded="true" style="width: 125px; height: 30px; --dark-ignore: true;"><div class="qk-image qk-image-vertical-align-middle" data-cmp="im" style="background-size: cover; background-position: center center; background-image: url(&quot;https://cdn.sm.cn/static/25/11/05/9cac9220c1e97e896be1a401941b2ba2.png?x-oss-process=image/format,webp&quot;);"></div></div><div class="pc-head-search-3I69o"><div class="qk-input qk-input-text qk-input-undefined qk-input-size-middle qk-input-font-size-m qk-input-media-undefined pc-head-search-input" data-cmp="in" style="--dark-ignore: true;"><input type="text" placeholder="搜索百科，探索真知" class="qk-input-inner" value=""><div class="qk-input-suffix"><span class="qk-icon" data-cmp="ic" style="width: 16px; height: 16px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><path d="M0 0H24V24H0z"></path><path class="qk-svg-s" fill-rule="nonzero" stroke="rgba(6,10,38,0.40)" stroke-width="2" d="M12 5a7 7 0 100 14 7 7 0 000-14z" style="vector-effect: none;"></path><path class="qk-svg-s" fill-rule="nonzero" stroke="rgba(6,10,38,0.40)" stroke-width="2" d="M17.044 17.108L20.288 20.367" style="vector-effect: none;"></path></g></svg></span></div></div></div></div><div class="container-content-class content-3b_0F"><div class="main_left-3ihYk"><div class="catalog_warp--Fn4a"><div class="catalogue_box_title-2Mfu9">目录</div><div class="catalogue_box_title_border-1U7qE"></div><div class="catalogue_box_scroll-11TV0" id="pc_catalogue_box_scroll"><div class="qk-tabs qk-tabs-cursor-active qk-tabs-type-tab qk-tabs-undefined gray qk-tabs-type-column" data-cmp="ta"><div class="qk-tabs-head-wrapper" style="--dark-ignore: true;"><div class="qk-tabs-head qk-tabs-head-start"><div class="qk-tabs-tab qk-tabs-tab-active qk-tabs-tab-first"><div class="qk-tabs-tab-content qk-tabs-tab-content-内容"><h4 pc-data-title="内容" class="active-2m4Uv">内容</h4></div></div><div class="qk-tabs-tab"><div class="qk-tabs-tab-content qk-tabs-tab-content-思想"><h4 pc-data-title="思想" class="">思想</h4></div></div><div class="qk-tabs-tab"><div class="qk-tabs-tab-content qk-tabs-tab-content-影响"><h4 pc-data-title="影响" class="">影响</h4></div></div><div class="qk-tabs-tab"><div class="qk-tabs-tab-content qk-tabs-tab-content-销量"><div pc-data-title="销量" class="h2_title-Dn_bd">·&nbsp;销量</div></div></div><div class="qk-tabs-tab"><div class="qk-tabs-tab-content qk-tabs-tab-content-荣誉"><div pc-data-title="荣誉" class="h2_title-Dn_bd">·&nbsp;荣誉</div></div></div><div class="qk-tabs-tab"><div class="qk-tabs-tab-content qk-tabs-tab-content-出版"><h4 pc-data-title="出版" class="">出版</h4></div></div><div class="qk-tabs-tab qk-tabs-tab-last"><div class="qk-tabs-tab-content qk-tabs-tab-content-作者"><h4 pc-data-title="作者" class="">作者</h4></div></div></div><div class="qk-tabs-position-arrow-right-mask"></div></div></div></div></div></div><div class="main_body-2qnW0" id="content" style="overflow: hidden;"><div class="main_body_content-A5T6G"><div class="pc_head_title-1fMsP" id="baike_title"><div class="name-3BM9Q"><div class="name_left-2RU5Z" style="width: 100%;"><span class="head_title_name-t6G4X">蛤蟆先生去看心理医生</span></div></div><div class="text-3u_pf"><span class="">1997年罗伯特·戴博德创作的心理学著作</span></div></div><div class="markDown_info-3SE9g pc_markDown_info-uClIa"><div class="qk-markdown qk-markdown-react qk-markdown-code-dark qk-markdown-complete" id="qk-markdown-react"><div class="qk-md-paragraph qk-md-has-multi-modal"><section class="qk-md-multi-modal"><div class="SwiperModule-3AQgh" data-cms-params=""></div></section></div><div class="qk-md-paragraph"><span class="qk-md-text complete">《蛤蟆先生去看心理医生》是英国心理学家罗伯特·戴博德（Robert de Board，1932年—2020年2月）于1997年首次出版的心理学著作</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">1</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[1]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5 item_no_text-b0YTf">罗伯特·戴博德．蛤蟆先生去看心理医生[M]．天津：，2020：版权页，前言页，目录页．</span><span class="item_siteName-3UNr6">天津人民出版社</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">。该书以《</span><div data-cms-params="" class="BlueLink-2vRzo pc_blue_link-1zBqA"><span class="blue_link_text_dark pc_link_text-2yAo7 correct-12Lrh">柳林风声</span></div><span class="qk-md-text complete">》中的蛤蟆先生为主角，讲述其因抑郁情绪寻求心理咨询，在咨询师苍鹭的引导下逐步认识自我、实现心理成长的过程。作品融合了人际沟通分析理论（TA），系统阐释“儿童”“父母”“成人”三种自我状态，强调个体应通过觉察与反思摆脱童年模式束缚，建立独立人格。书中提出“人生坐标”概念，揭示早期经历对成年后行为与情绪的深远影响。截至2024年12月，其中文版累计销量达500万册</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">4</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[4]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5 item_no_text-b0YTf">展颜.困在童年里的蛤蟆先生[N].,2022-03-27(A04).</span><span class="item_siteName-3UNr6">南通日报</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">，并入选</span><div data-cms-params="" class="BlueLink-2vRzo pc_blue_link-1zBqA"><span class="blue_link_text_dark pc_link_text-2yAo7 correct-12Lrh">北京市科学技术协会</span><div class="PcTooltip tooltip-wKkwJ"><div class="tooltip-arrow-1N6Qf"></div><div class="blue_link_modal_content-1Cp6I"><div class="head_title-3N5Fx"><div class="head_title_r-3nDOu"><img class="qk-image qk-image-lazy" data-src="https://content-produce.quark.cn/26010007/aa62e7d8c08a411694bb5c36637ef680/8004a248f4974b3899c144c51420562b.jpeg" data-quarkimgobserver="true" data-cmp="im" data-quark-img-id="2" src="./蛤蟆先生去看心理医生_files/8004a248f4974b3899c144c51420562b.jpeg" data-show="true"><div class="shadow-2bDRn"></div></div><div class="head_title_l-3K54B"><div class="title-2PI31">北京市科学技术协会</div><div class="qk-paragraph qk-color-darkest qk-font-normal qk-font-size-m qk-paragraph-inner qk-paragraph-mobile qk-paragraph-full qk-line-height-m desc" data-cmp="pa"><div class="qk-paragraph-content qk-clamp-1"><div class="qk-paragraph-value"><div class="qk-paragraph-text">中国科学技术协会的地方组织</div></div></div></div></div></div><div class="content_wrapper_center-1MoO8"><div class="qk-paragraph qk-color-darkest qk-font-normal qk-font-size-m qk-paragraph-inner qk-paragraph-mobile qk-paragraph-full qk-line-height-m" data-cmp="pa"><div class="qk-paragraph-content qk-clamp-5"><div class="qk-paragraph-value"><div class="qk-paragraph-text">北京市科学技术协会（Beijing Association for Science and Technology）成立于1963年7月29日，由原北京科联与北京科普合并组建，是北京地区科技工作者的群众组织，隶属于中国共产党北京市委员会领导，为中国科学技术协会的地方组织，接受其业务指导，并为中国人民政治协商会议北京市委员会的参加单位。协会由市学会、基金会、区科协及基层组织构成，致力于联系和服务科技工作者，推动学术交流、科学普及、科技创新与人才发展。截至2018年7月，协会拥有市学会和基金会212个、区科协16个、基层组织698个、高校科协20个，联系科技工作者约99.4万人，下设7个机关部门、11个事业单位和9个工作委员会。</div></div></div></div></div><div class="blue_link_modal_btn-3IcPc">查看更多</div></div></div></div><span class="qk-md-text complete">“2021年优秀科普读物推荐书目”</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">5</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[5]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5">《蛤蟆先生去看心理医生》中文版畅销500万作者女儿来华：灵感来自童话《柳林风声》</span><span class="item_siteName-3UNr6">封面新闻百家号</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">，获</span><div data-cms-params="" class="BlueLink-2vRzo pc_blue_link-1zBqA"><span class="blue_link_text_dark pc_link_text-2yAo7 correct-12Lrh">中央电视台科教频道</span></div><span class="qk-md-text complete">《</span><div data-cms-params="" class="BlueLink-2vRzo pc_blue_link-1zBqA"><span class="blue_link_text_dark pc_link_text-2yAo7 correct-12Lrh">读书</span></div><span class="qk-md-text complete">》栏目推荐</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">6</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[6]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5">“2021年优秀科普读物推荐书目”发布</span><span class="item_siteName-3UNr6">扬子晚报网</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">。</span></div><span id="内容" class="directory_title directory_title_h1"><h1 class="qk-md-head"><span class="qk-md-text complete">内容</span></h1></span><div class="qk-md-paragraph"><span class="qk-md-text complete">蛤蟆先生因情绪低落、自我评价降至2分（满分10分）而求助心理咨询师苍鹭</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">2</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[2]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5">[读书]罗伯特·戴博德：《蛤蟆先生去看心理医生》</span><span class="item_siteName-3UNr6">央视网</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">。他长期敏感于他人评价，习惯压抑愤怒，常将问题归咎于自身。在十次咨询过程中，苍鹭引导其探索情绪根源，识别出其频繁处于“儿童自我状态”或“父母自我状态”，难以进入理性决策的“成人自我状态”。通过回溯童年经历，蛤蟆先生意识到原生家庭对其性格形成的深刻影响，并逐步理解情绪选择的自主性。苍鹭指出：“没有人能让你不快乐，是你自己选择了不快乐。作为成年人，理应为自己的行为和情绪负责。”最终，蛤蟆先生完成心理重建，恢复生活动力，重新参与社交与公共事务。</span></div><span id="思想" class="directory_title directory_title_h1"><h1 class="qk-md-head"><span class="qk-md-text complete">思想</span></h1></span><div class="qk-md-paragraph"><span class="qk-md-text complete">作品借鼹鼠探访蛤蟆庄园的场景描绘心理困境：“树篱枝叶无人修剪，玫瑰花坛杂草丛生，草坪上落满黄叶”，象征主人公内心的荒芜</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">3</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[3]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5 item_no_text-b0YTf">《蛤蟆先生去看心理医生》[J].,2021(18)：55.</span><span class="item_siteName-3UNr6">工会博览</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">。书中强调，抑郁症需引起亲友重视，应及时寻求专业干预，避免延误。作者引入人际沟通分析理论，提出人格由“儿童”“父母”“成人”三种自我状态构成，健康心理在于激活“成人自我状态”，即基于当下事实进行理性判断与行动，而非受制于童年情绪或内化父母声音。</span><br><span class="qk-md-text complete">书中提出“人生坐标”四象限模型：我好你也好、我好你不好、你好我不好、你不好我不好。个体在童年时期确立坐标定位，并据此构建世界观与人际关系模式。唯有通过自我觉察与认知重构，才能打破固有框架，实现真正的心理独立与成长。</span></div><span id="影响" class="directory_title directory_title_h1"><h1 class="qk-md-head"><span class="qk-md-text complete">影响</span></h1></span><span id="销量" class="directory_title "><h2 class="qk-md-head"><span class="qk-md-text complete">销量</span></h2></span><div class="qk-md-paragraph"><span class="qk-md-text complete">截至2024年12月，《蛤蟆先生去看心理医生》中文版累计销售500万册。</span></div><span id="荣誉" class="directory_title "><h2 class="qk-md-head"><span class="qk-md-text complete">荣誉</span></h2></span><div class="qk-md-paragraph"><span class="qk-md-text complete">2021年9月12日，该书入选北京市科学技术协会发布的“2021年优秀科普读物推荐书目”。</span><br><span class="qk-md-text complete">2021年11月17日，被中央电视台科教频道《读书》栏目专题推荐。</span></div><span id="出版" class="directory_title directory_title_h1"><h1 class="qk-md-head"><span class="qk-md-text complete">出版</span></h1></span><div class="qk-md-table-wrapper qk-md-table-merge-mode"><div class="qk-md-table-container"><span class="qk-md-html"> 《蛤蟆先生去看心理医生》中译版出版信息 <table><tbody><tr><th> 书名 </th><th> 译者 </th><th> 出版时间 </th><th> 出版社 </th><th> ISBN </th></tr><tr><td> 《蛤蟆先生的希望：TA谘商童话版》（台版） </td><td> 张美惠 </td><td> 2012年1月 </td><td> 张老师文化事业股份有限公司 </td><td> 978-957-693-783-5  </td></tr><tr><td> 《蛤蟆先生的希望》 </td><td> 张美惠 </td><td> 2013年4月 </td><td> 译林出版社 </td><td> 978-7-5447-3674-9  </td></tr><tr><td> 《青蛙如何变王子：写给年轻人的成长智慧》 </td><td> 张美惠 </td><td> 2014年12月 </td><td> 译林出版社 </td><td> 978-7-5447-5089-9  </td></tr><tr><td> 《蛤蟆先生去看心理医生》 </td><td> 陈赢 </td><td> 2020年8月 </td><td> 天津人民出版社 </td><td> 978-7-201-16169-3  </td></tr><tr><td> 《蛤蟆先生去看心理师》（台版） </td><td> 张美惠 </td><td> 2022年1月 </td><td> 三采文化 </td><td> 978-957-658-739-9  </td></tr></tbody></table>
+
+</span></div></div><span id="作者" class="directory_title directory_title_h1"><h1 class="qk-md-head"><span class="qk-md-text complete">作者</span></h1></span><div class="qk-md-paragraph qk-md-has-multi-modal"><section class="qk-md-multi-modal"><div class="single-center-2ilCi"><div class="single-image-wrapper-PwioB"><div class="single-image-wrapper-warp-8ZF8o"><img src="./蛤蟆先生去看心理医生_files/937d4a9b39d744bfad795a492d949f38.jpeg" alt="罗伯特·戴博德" loading="lazy" class="single-image-jaxLc"><div class="shadown-2hAoD"></div></div><div class="single-image-title-cpF8D">罗伯特·戴博德</div></div></div></section></div><div class="qk-md-paragraph"><span class="qk-md-text complete">罗伯特·戴博德（Robert de Board，1932年—2020年2月），英国心理学家，毕业于</span><div data-cms-params="" class="BlueLink-2vRzo pc_blue_link-1zBqA"><span class="blue_link_text_dark pc_link_text-2yAo7 correct-12Lrh">剑桥大学</span></div><span class="qk-md-text complete">赛尔文学院，曾任教于亨利商学院。著有心理学教材《咨询技巧》《组织的心理分析》等</span><div data-dark-ignore="true" data-cms-params="" class="quoteWarp quoteWarp-1i2tc pc_quote_warp-2n5YZ"><span data-dark-ignore="true" class="quote_gray quote_gray-18nZo quote_gray_one-SfOsz">7</span><div class="tooltip-1lGVr"><div class="tooltip-arrow-2bdGM"></div><ul class="pc_source_list-37UF-"><li class="list_item-2wUxU"><div class="list_item_l-GvuMh">[7]</div><div class="list_item_r-1QC2S"><span class="item_text-J9Cx5">蛤蟆先生去看心理医生</span><span class="item_siteName-3UNr6">南方医科大学图书馆</span><div class="item_date-3q-kw"></div></div></li></ul></div></div><span class="qk-md-text complete">。</span></div></div></div><img class="logoImg-3JGH5" src="./蛤蟆先生去看心理医生_files/c8a4957edee73a2c8721a3eae5c31c0a.png"></div><div id="sourec_content_warp" class="source-H3M_t pc_source-1ktqS"><div class="line-11I3C"></div><div class="title-3o03v"><p>参考来源</p></div><ul class="sourceList-2JOWh"><li class="item-1_nHL no_item-BOuAU"><div class="item_l-11vqs">[1]</div><div class="item_r-t-R2E"><span class=" blue_link_text_dark text-B7XoA no_text-1p1CJ">罗伯特·戴博德．蛤蟆先生去看心理医生[M]．天津：，2020：版权页，前言页，目录页．</span><span class="siteName-_M8qZ">天津人民出版社</span><span class="date-jswVv"></span></div></li><li class="item-1_nHL"><div class="item_l-11vqs">[2]</div><div class="item_r-t-R2E"><span class="blue_link_text blue_link_text_dark text-B7XoA">[读书]罗伯特·戴博德：《蛤蟆先生去看心理医生》</span><span class="siteName-_M8qZ">央视网</span><span class="date-jswVv"></span></div></li><li class="item-1_nHL no_item-BOuAU"><div class="item_l-11vqs">[3]</div><div class="item_r-t-R2E"><span class=" blue_link_text_dark text-B7XoA no_text-1p1CJ">《蛤蟆先生去看心理医生》[J].,2021(18)：55.</span><span class="siteName-_M8qZ">工会博览</span><span class="date-jswVv"></span></div></li><li class="item-1_nHL no_item-BOuAU"><div class="item_l-11vqs">[4]</div><div class="item_r-t-R2E"><span class=" blue_link_text_dark text-B7XoA no_text-1p1CJ">展颜.困在童年里的蛤蟆先生[N].,2022-03-27(A04).</span><span class="siteName-_M8qZ">南通日报</span><span class="date-jswVv"></span></div></li><li class="item-1_nHL"><div class="item_l-11vqs">[5]</div><div class="item_r-t-R2E"><span class="blue_link_text blue_link_text_dark text-B7XoA">《蛤蟆先生去看心理医生》中文版畅销500万作者女儿来华：灵感来自童话《柳林风声》</span><span class="siteName-_M8qZ">封面新闻百家号</span><span class="date-jswVv"></span></div></li><li class="item-1_nHL"><div class="item_l-11vqs">[6]</div><div class="item_r-t-R2E"><span class="blue_link_text blue_link_text_dark text-B7XoA">“2021年优秀科普读物推荐书目”发布</span><span class="siteName-_M8qZ">扬子晚报网</span><span class="date-jswVv"></span></div></li><li class="item-1_nHL"><div class="item_l-11vqs">[7]</div><div class="item_r-t-R2E"><span class="blue_link_text blue_link_text_dark text-B7XoA">蛤蟆先生去看心理医生</span><span class="siteName-_M8qZ">南方医科大学图书馆</span><span class="date-jswVv"></span></div></li></ul></div><div class="information-3EdkC"><img class="qk-image qk-image-lazy bottomLog" data-src="https://cdn.sm.cn/static/25/11/12/b8caa201a40da82b30f77477385a0329.png?x-oss-process=image/format,webp" data-quarkimgobserver="true" data-cmp="im" data-quark-img-id="1"></div></div><div class="main_right-32bv5"><div class="main_right_img-3G6nT"><img class="qk-image main_right_img_content" src="./蛤蟆先生去看心理医生_files/865edf22b6e64d97b09c41fa277c82a7.jpeg" data-cmp="im"><div class="shadown-2lrpE"></div><div class="atlas_count-2ViAh"><span class="qk-icon" data-cmp="ic" style="width: 16px; height: 16px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><path class="qk-svg-s" stroke="#fff" stroke-width="2" d="M4.282 4h15.436c.446 0 .607.046.77.134.163.087.291.215.378.378.088.163.134.324.134.77v13.436c0 .446-.046.607-.134.77a.909.909 0 01-.378.378c-.163.088-.324.134-.77.134H4.282c-.446 0-.607-.046-.77-.134a.909.909 0 01-.378-.378c-.088-.163-.134-.324-.134-.77V5.282c0-.446.046-.607.134-.77a.909.909 0 01.378-.378c.163-.088.324-.134.77-.134z"></path><circle class="qk-svg-f" cx="7.5" cy="8.5" r="1.5" fill="#fff"></circle><path class="qk-svg-s" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 13l.123.137A6.042 6.042 0 0012 13.25l.123-.13A6.194 6.194 0 0121 13h0"></path></g></svg></span><span>1张</span></div></div><div data-cms-params="" class="catalog-top-hr kvtable-Dluce pc_kvtable_warp-3FMIM"><div class="kv-table-container-3DxVy"><div class="kv-table-1q0ql"><div class="kv-row-3mlKY"><div class="kv_table_dark kv-key-39g6t kv-table-first-1zPYv">外文名</div><div class="kv-value-1vKXY">Counselling for Toads: A Psychological Adventure</div></div></div><div class="kv-table-1q0ql"><div class="kv-row-3mlKY"><div class="kv_table_dark kv-key-39g6t">首版时间</div><div class="kv-value-1vKXY">1997年</div></div></div><div class="kv-table-1q0ql"><div class="kv-row-3mlKY"><div class="kv_table_dark kv-key-39g6t">类别</div><div class="kv-value-1vKXY">心理学著作</div></div></div><div class="kv-table-1q0ql"><div class="kv-row-3mlKY"><div class="kv_table_dark kv-key-39g6t">字数</div><div class="kv-value-1vKXY">83千字（2013年版）；108千字（2020年版）</div></div></div><div class="kv-table-1q0ql"><div class="kv-row-3mlKY"><div class="kv_table_dark kv-key-39g6t">作者</div><div class="kv-value-1vKXY">【英】罗伯特·戴博德</div></div></div><div class="kv-table-1q0ql"><div class="kv-row-3mlKY"><div class="kv_table_dark kv-key-39g6t kv-table-larst-1b7PV">作品名称</div><div class="kv-value-1vKXY">蛤蟆先生去看心理医生</div></div></div></div></div></div></div></div></div><script>try{performance.mark('stage-skeleton-parser-end')}catch(e){}</script><div id="root-shadow" hidden=""></div><script>try{performance.mark('stage-extra-scripts-start')}catch(e){}</script><script>window.__VERSION='0.0.12'; window.ENV_TYPE = 'prod'; window.__INITIAL_PROPS__ = {"version":"1.0.0","routeConfig":{},"renderTypeOrigin":"","isOfflinePackage":"","renderType":"SSR","initialData":{"baikeInfo":{"status":200,"data":{"status":0,"code":"00000","msg":"成功","data":{"baseInfo":{"contentId":"711efc13f1c34fbb95dbe295faed4a62","title":"蛤蟆先生去看心理医生","pageType":3,"coverImg":"https://content-produce.quark.cn/26010007/96f922961ca64a38860c2e4b7ee10733/865edf22b6e64d97b09c41fa277c82a7.jpeg","coverImgS2":null,"platformCount":null,"itemCount":null,"iconUrl":null,"categoryName":null,"desc":"1997年罗伯特·戴博德创作的心理学著作","tag":"","titlePinyin":"","polysemousList":[]},"authorInfo":{"authorId":"5d6d8320e0604ba480236fa829ef0e21","nickname":"夸克百科","avatar":"http://s2.zimgs.cn/ims?at=managed_webpage&kt=url&key=aHR0cHM6Ly9jb250ZW50LXByb2R1Y2Utb2ZmaW5lLnF1YXJrLmNuLzI2MDEwMDA3LzM0NDU4ZjZlZmNhNzQ3OGM5NzFlZGFlOTk1MGNiMDI0LnBuZw==&sign=yx:6tleqAueJk7CUvCxF0Sb79lTYaM=&tv=0_0&p=","avatarCdnUrl":"https://content-produce.quark.cn/26010007/34458f6efca7478c971edae9950cb024.png","desc":"","isV":true},"starInfo":{"likeCount":6577,"favoriteCount":10027},"isZan":false,"subscribeSituation":{"likeCountInfo":{"text":null,"num":null},"authorSubscribeCount":0,"currentUserSubscribed":false,"contentCount":0},"stepList":null,"isFavorite":false,"abstractList":null,"body":"\n\n\n[(scroll_list_1)]\n\n\n《蛤蟆先生去看心理医生》是英国心理学家罗伯特·戴博德（Robert de Board，1932年—2020年2月）于1997年首次出版的心理学著作[(quote_list_1)]。该书以《[(blue_link_1)]》中的蛤蟆先生为主角，讲述其因抑郁情绪寻求心理咨询，在咨询师苍鹭的引导下逐步认识自我、实现心理成长的过程。作品融合了人际沟通分析理论（TA），系统阐释“儿童”“父母”“成人”三种自我状态，强调个体应通过觉察与反思摆脱童年模式束缚，建立独立人格。书中提出“人生坐标”概念，揭示早期经历对成年后行为与情绪的深远影响。截至2024年12月，其中文版累计销量达500万册[(quote_list_4)]，并入选[(blue_link_2)]“2021年优秀科普读物推荐书目”[(quote_list_5)]，获[(blue_link_3)]《[(blue_link_4)]》栏目推荐[(quote_list_6)]。\n\n\n\n[(kv_table_1)]\n\n\n# 内容\n蛤蟆先生因情绪低落、自我评价降至2分（满分10分）而求助心理咨询师苍鹭[(quote_list_2)]。他长期敏感于他人评价，习惯压抑愤怒，常将问题归咎于自身。在十次咨询过程中，苍鹭引导其探索情绪根源，识别出其频繁处于“儿童自我状态”或“父母自我状态”，难以进入理性决策的“成人自我状态”。通过回溯童年经历，蛤蟆先生意识到原生家庭对其性格形成的深刻影响，并逐步理解情绪选择的自主性。苍鹭指出：“没有人能让你不快乐，是你自己选择了不快乐。作为成年人，理应为自己的行为和情绪负责。”最终，蛤蟆先生完成心理重建，恢复生活动力，重新参与社交与公共事务。\n\n# 思想\n作品借鼹鼠探访蛤蟆庄园的场景描绘心理困境：“树篱枝叶无人修剪，玫瑰花坛杂草丛生，草坪上落满黄叶”，象征主人公内心的荒芜[(quote_list_3)]。书中强调，抑郁症需引起亲友重视，应及时寻求专业干预，避免延误。作者引入人际沟通分析理论，提出人格由“儿童”“父母”“成人”三种自我状态构成，健康心理在于激活“成人自我状态”，即基于当下事实进行理性判断与行动，而非受制于童年情绪或内化父母声音。  \n书中提出“人生坐标”四象限模型：我好你也好、我好你不好、你好我不好、你不好我不好。个体在童年时期确立坐标定位，并据此构建世界观与人际关系模式。唯有通过自我觉察与认知重构，才能打破固有框架，实现真正的心理独立与成长。\n\n# 影响\n## 销量\n截至2024年12月，《蛤蟆先生去看心理医生》中文版累计销售500万册。\n\n## 荣誉\n2021年9月12日，该书入选北京市科学技术协会发布的“2021年优秀科普读物推荐书目”。  \n2021年11月17日，被中央电视台科教频道《读书》栏目专题推荐。\n\n# 出版\n\n<table> 《蛤蟆先生去看心理医生》中译版出版信息 <tbody><tr><th> 书名 </th><th> 译者 </th><th> 出版时间 </th><th> 出版社 </th><th> ISBN </th></tr><tr><td> 《蛤蟆先生的希望：TA谘商童话版》（台版） </td><td> 张美惠 </td><td> 2012年1月 </td><td> 张老师文化事业股份有限公司 </td><td> 978-957-693-783-5  </td></tr><tr><td> 《蛤蟆先生的希望》 </td><td> 张美惠 </td><td> 2013年4月 </td><td> 译林出版社 </td><td> 978-7-5447-3674-9  </td></tr><tr><td> 《青蛙如何变王子：写给年轻人的成长智慧》 </td><td> 张美惠 </td><td> 2014年12月 </td><td> 译林出版社 </td><td> 978-7-5447-5089-9  </td></tr><tr><td> 《蛤蟆先生去看心理医生》 </td><td> 陈赢 </td><td> 2020年8月 </td><td> 天津人民出版社 </td><td> 978-7-201-16169-3  </td></tr><tr><td> 《蛤蟆先生去看心理师》（台版） </td><td> 张美惠 </td><td> 2022年1月 </td><td> 三采文化 </td><td> 978-957-658-739-9  </td></tr></tbody></table>\n\n# 作者\n\n[(scroll_list_2)]\n\n罗伯特·戴博德（Robert de Board，1932年—2020年2月），英国心理学家，毕业于[(blue_link_5)]赛尔文学院，曾任教于亨利商学院。著有心理学教材《咨询技巧》《组织的心理分析》等[(quote_list_7)]。","valueList":[{"seq":"kv_table_1","name":"kv_table","data":{"content":[{"key":"外文名","value":"Counselling for Toads: A Psychological Adventure"},{"key":"首版时间","value":"1997年"},{"key":"类别","value":"心理学著作"},{"key":"字数","value":"83千字（2013年版）；108千字（2020年版）"},{"key":"作者","value":"【英】罗伯特·戴博德"},{"key":"作品名称","value":"蛤蟆先生去看心理医生"}]}},{"seq":"scroll_list_1","name":"scroll_list","data":[{"url":"https://content-produce.quark.cn/26010007/96f922961ca64a38860c2e4b7ee10733/865edf22b6e64d97b09c41fa277c82a7.jpeg","type":"1","title":"蛤蟆先生去看心理医生","umsid":null,"videoCover":null,"videoId":null,"ossKey":"26010007/96f922961ca64a38860c2e4b7ee10733/865edf22b6e64d97b09c41fa277c82a7.jpeg","imgWidth":"400","imgHeight":"541"}]},{"seq":"scroll_list_2","name":"scroll_list","data":[{"url":"https://content-produce.quark.cn/26010007/96f922961ca64a38860c2e4b7ee10733/937d4a9b39d744bfad795a492d949f38.jpeg","type":"1","title":"罗伯特·戴博德","umsid":null,"videoCover":null,"videoId":null,"ossKey":"26010007/96f922961ca64a38860c2e4b7ee10733/937d4a9b39d744bfad795a492d949f38.jpeg","imgWidth":"400","imgHeight":"525"}]},{"seq":"quote_list_1","name":"quote_list","data":[{"serial":"1","type":"","desc":""}]},{"seq":"quote_list_2","name":"quote_list","data":[{"serial":"2","type":"","desc":""}]},{"seq":"quote_list_3","name":"quote_list","data":[{"serial":"3","type":"","desc":""}]},{"seq":"quote_list_4","name":"quote_list","data":[{"serial":"4","type":"","desc":""}]},{"seq":"quote_list_5","name":"quote_list","data":[{"serial":"5","type":"","desc":""}]},{"seq":"quote_list_6","name":"quote_list","data":[{"serial":"6","type":"","desc":""}]},{"seq":"quote_list_7","name":"quote_list","data":[{"serial":"7","type":"","desc":""}]},{"seq":"blue_link_1","name":"blue_link","data":{"title":"柳林风声","type":"quark_baike","query":null,"contentId":"c56dc0a6d20545a6a90e21dddae27773","status":1}},{"seq":"blue_link_2","name":"blue_link","data":{"title":"北京市科学技术协会","type":"quark_baike","query":null,"contentId":"28e88f1eb60e4d23ae06098828f6ca2e","status":1}},{"seq":"blue_link_3","name":"blue_link","data":{"title":"中央电视台科教频道","type":"quark_baike","query":null,"contentId":"e4110a7c3969441daa3c00e9ad6496a9","status":1}},{"seq":"blue_link_4","name":"blue_link","data":{"title":"读书","type":"quark_baike","query":null,"contentId":"87b413c592904604997a007e1b7b8322","status":1}},{"seq":"blue_link_5","name":"blue_link","data":{"title":"剑桥大学","type":"quark_baike","query":null,"contentId":"1c919abd43774426a889487038b41bb5","status":1}}],"contentExtInfo":{"contents":[{"title":"内容","nextTitleList":null},{"title":"思想","nextTitleList":null},{"title":"影响","nextTitleList":[{"title":"销量","nextTitleList":null},{"title":"荣誉","nextTitleList":null}]},{"title":"出版","nextTitleList":null},{"title":"作者","nextTitleList":null}],"references":[{"serialNumber":"1","link":"","siteName":"天津人民出版社","date":0,"text":"罗伯特·戴博德．蛤蟆先生去看心理医生[M]．天津：，2020：版权页，前言页，目录页．","tag":""},{"serialNumber":"2","link":"https://tv.cctv.com/2021/11/17/VIDEjlBqI3Bml5odIg8hpzPU211117.shtml","siteName":"央视网","date":0,"text":"[读书]罗伯特·戴博德：《蛤蟆先生去看心理医生》","tag":""},{"serialNumber":"3","link":"","siteName":"工会博览","date":0,"text":"《蛤蟆先生去看心理医生》[J].,2021(18)：55.","tag":""},{"serialNumber":"4","link":"","siteName":"南通日报","date":0,"text":"展颜.困在童年里的蛤蟆先生[N].,2022-03-27(A04).","tag":""},{"serialNumber":"5","link":"https://baijiahao.baidu.com/s?id=1817326312271944957&wfr=spider&for=pc","siteName":"封面新闻百家号","date":0,"text":"《蛤蟆先生去看心理医生》中文版畅销500万作者女儿来华：灵感来自童话《柳林风声》","tag":""},{"serialNumber":"6","link":"http://news.yangtse.com/zncontent/1611484.html","siteName":"扬子晚报网","date":0,"text":"“2021年优秀科普读物推荐书目”发布","tag":""},{"serialNumber":"7","link":"http://lib.smu.edu.cn/article/detail/2463","siteName":"南方医科大学图书馆","date":0,"text":"蛤蟆先生去看心理医生","tag":""}],"brainImg":"","summary":"《蛤蟆先生去看心理医生》是英国心理学家罗伯特·戴博德（Robert de Board，1932年—2020年2月）于1997年首次出版的心理学著作。该书以《柳林风声》中的蛤蟆先生为主角，讲述其因抑郁情绪寻求心理咨询，在咨询师苍鹭的引导下逐步认识自我、实现心理成长的过程。作品融合了人际沟通分析理论（TA），系统阐释“儿童”“父母”“成人”三种自我状态，强调个体应通过觉察与反思摆脱童年模式束缚，建立独立人格。书中提出“人生坐标”概念，揭示早期经历对成年后行为与情绪的深远影响。截至2024年12月，其中文版累计销量达500万册，并入选北京市科学技术协会“2021年优秀科普读物推荐书目”，获中央电视台科教频道《读书》栏目推荐。"}},"axiosId":"711efc13f1c34fbb95dbe295faed4a62","resContentId":"711efc13f1c34fbb95dbe295faed4a62","resTitle":"蛤蟆先生去看心理医生","eagtraceId":"213e057c17876278350645426e09ba"},"clientUcParams":{}},"pageType":"baike","isLogin":false,"isQuark":false,"isPCEnv":true,"ut":"","urlId":"711efc13f1c34fbb95dbe295faed4a62","axiosId":"711efc13f1c34fbb95dbe295faed4a62","eagtraceId":"213e057c17876278350645426e09ba","resTitle":"蛤蟆先生去看心理医生","resContentId":"711efc13f1c34fbb95dbe295faed4a62","isSpider":false,"xRenderType":"ssr","referer":"https://baike.quark.cn/baike?id=711efc13f1c34fbb95dbe295faed4a62","ispreimg":false,"ssrRequestCost":93}}</script><script>try{performance.mark('stage-extra-scripts-end')}catch(e){}</script><script>try{performance.mark('stage-snapshot-start')}catch(e){}</script><script></script><script>try{performance.mark('stage-snapshot-end')}catch(e){}</script><script>
+            window.sm = {
+            PARAM: {
+              log_type: 'ut',
+              log: {
+                a: 'a2s0k',
+                b: 'baike_detail',
+                ev_ct: 'aipage',
+                page: 'page_a2s0k_baike_detail'
+              },
+            },
+          };</script><script>try{performance.mark('stage-scripts-start')}catch(e){}</script><script defer="" src="./蛤蟆先生去看心理医生_files/3cde607913ae667784e86b8506c262e8.js.下载"></script><script defer="" src="./蛤蟆先生去看心理医生_files/e77c34b82e56c058c308b9f602b8b926.js.下载"></script><script defer="" src="./蛤蟆先生去看心理医生_files/baike.1d47f8d8bb08851d96d2.js.下载"></script><script>try{performance.mark('stage-scripts-end')}catch(e){}</script><script>try{performance.mark('stage-first-screen')}catch(e){}</script><script>try{performance.mark('stage-body-end')}catch(e){}</script><script>try{performance.mark('ssr-end')}catch(e){}</script><div><div id="image-viewer-container"><div class="picture-box-container picture-box-opacity-0  picture-box-opacity-1"><div class="close-btn"><span class="qk-icon" data-cmp="ic" style="width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g class="qk-svg-s" fill="none" fill-rule="evenodd" stroke="#192338" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"><path d="M7 7L17 17"></path><path d="M17 7L7 17"></path></g></svg></span></div><div class="picture-container"><div class="show-view"><div class="J_imgs-slider-container imgs-slider-container"><div class="imgs-show-view"><div class="drag-image-box"><div class="react-draggable" style="transform: translate(0px, 0px);"><div class="picture-warp-container  drag-picture" style="width: 400px; height: 541px; transform: scale(1);"><img class="qk-image" src="./蛤蟆先生去看心理医生_files/865edf22b6e64d97b09c41fa277c82a7(1).jpeg" data-cmp="im" style="width: 100%; height: 100%;"><div class="piture-shadow"></div></div></div></div></div></div></div><div class="operations-container"><div class="operate-item scale"><span class="shrink "></span><span class="show-number">100%</span><span class="stretch "></span></div><div class="operate-item download"><span class="qk-icon" data-cmp="ic" style="width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g><g><path d="M0 0L24 0 24 24 0 24z"></path></g><path class="qk-svg-f" fill="#192338" fill-rule="nonzero" d="M7 7v2H4v11h16V9h-3V7h3a2 2 0 012 2v11a2 2 0 01-2 2H4a2 2 0 01-2-2V9a2 2 0 012-2h3z"></path><path class="qk-svg-f" fill="#192338" fill-rule="nonzero" d="M11 2.5L11 14 13 14 13 2.5z"></path><path class="qk-svg-f" fill="#192338" d="M8.5 12L12 16 15.5 12z"></path></g></g></svg></span></div></div></div><div class="ivi-list-container"><div class="info-view"><div class="info-view-origin">图片来源</div><div class="info-view-title">蛤蟆先生去看心理医生</div><div class="info-view-source"><div class="info-view-source-size"><div class="info-view-cutline">400 × 541</div></div></div></div><div class="ivi-list-view"><div class="ivi-list-con"><div class="list-left"><div data-info="0" class="ivi-pic-item J_left-rigth-item"><div class="imgbox active J_imgbox_0" style="width: 100%; padding-bottom: 135.25%;"><div class="picture-warp-container  img-wrap"><img class="qk-image" src="./蛤蟆先生去看心理医生_files/865edf22b6e64d97b09c41fa277c82a7.jpeg" data-cmp="im" style="width: 100%; height: 100%;"><div class="piture-shadow"></div></div></div></div></div><div class="list-right"></div></div></div></div></div></div></div></body></html>
